@@ -15,7 +15,7 @@ app.use(express.static(publicStaticDirectPath));
 
 app.get('', (req, res) => {
        res.render('index', {
-              title: 'Weather App'
+              title: ''
        })
 })
 
